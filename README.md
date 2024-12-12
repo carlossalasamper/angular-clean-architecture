@@ -9,6 +9,54 @@
 
 - 📁 Clean architecture. Layered file structure
 - 🛡️ TypeScript bulletproof typing
+- 🎨 Design System and UI: [Tailwind CSS](https://tailwindcss.com/)
+- 🖌️ Code format: [angular-eslint](https://github.com/angular-eslint/angular-eslint?tab=readme-ov-file#quick-start)
+- 🐩 Git hooks: [Husky](https://www.npmjs.com/package/husky)
+
+<hr>
+
+## 📁 Project File Structure
+
+> ⚠️ What makes the implementation of the clean architecture concept more difficult in my opinion is that since it is defined theoretically, each person implements it using different terminology or omitting/adding some layers or pieces to simplify it or continue to make it more complex.
+
+For this reason, I think it is important to emphasize the documentation that accompanies the architecture to avoid obstacles with the rest of the people who are going to work with this system.
+
+I briefly explain each of the four layers that make up clean architecture within the /src folder:
+
+```
+└── /src
+    └── /app
+        ├── /core                      # Core bounded context
+        │   └── /presentation
+        └── /post                      # Post bounded context
+            ├── /domain
+            ├── /application
+            ├── /infrastructure
+            └── /presentation
+```
+
+### Domain
+
+This layer contains all the enterprise business rules: entities, specifications...
+
+### Application
+
+This layer contains the use cases of the bounded context.
+
+### Infrastructure
+
+This layer contains the technical details (implementation) of the domain layer and third parties integrations.
+
+### Presentation
+
+This layer contains the React source code: views and controllers (Mobx controllers).
+
+### Referencesw
+
+- https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+- https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+
+<hr>
 
 ## Development server
 
