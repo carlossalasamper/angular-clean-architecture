@@ -11,6 +11,7 @@
 - 🛡️ TypeScript bulletproof typing
 - 🎨 Design System and UI: [Tailwind CSS](https://tailwindcss.com/)
 - 🖌️ Code format: [angular-eslint](https://github.com/angular-eslint/angular-eslint?tab=readme-ov-file#quick-start)
+- 🧰 State Manager: [NgRx](https://ngrx.io/)
 - 🐩 Git hooks: [Husky](https://www.npmjs.com/package/husky)
 
 <hr>
