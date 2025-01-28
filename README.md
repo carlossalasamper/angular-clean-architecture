@@ -7,6 +7,7 @@
 
 ## Features
 
+- 🚀 [Angular 19](https://blog.angular.dev/meet-angular-v19-7b29dfd05b84)
 - 📁 Clean architecture. Layered file structure
 - 🛡️ TypeScript bulletproof typing
 - 🎨 Design System and UI: [Tailwind CSS](https://tailwindcss.com/)
